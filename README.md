@@ -4,6 +4,10 @@ Link para ter $ 200 na Digital Ocean
 
 https://m.do.co/c/a939ecc60dfa
 
+Codico para Gerar a senha do Grafana
+
+​​kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+
 
 # Estrutura Inicial
 
